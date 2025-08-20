@@ -8,18 +8,25 @@ This is the bootcamp repo created for the Summer Bootcamp IV of MFE program at N
 - **class_materials/** → Local storage for class materials. Never pushed to
 GitHub.
 
+## Environment setup
+
+```bash
+conda env create -f environment.yml
+```
+
 ## Homeworks
-- Each homework will be in its own subfolder (`homework0`, `homework1`, etc.) or it consists of a single file 
-like `homework1.ipynb`
-- For homework2 it is located (according to the task discription) under the notebooks folder of the named project folder of homework here is the link [Homework2](turtle_project/notebooks/00_project_setup.ipynb)
+- Each homework will be in its own subfolder (`homework0`, `homework1`, etc.)
 - Include all required files for grading.
 
 List of all homeworks:
 
 - [Homework0](homework/homework0/python_tutorial.ipynb)
-- [Homework1](homework/homework1.ipynb)
-- [Homework2](turtle_project/notebooks/00_project_setup.ipynb)
-- [Homework3](homework/homework3.ipynb)
+- [Homework1](homework/homework1/homework1.ipynb)
+- [Homework2](homework/homework2/homework2.ipynb)
+- [Homework3](homework/homework3/homework3.ipynb)
+- [Homework4](homework/homework4/homework4.ipynb)
+- [Homework5](homework/homework5/homework5.ipynb)
+- [Homework6](homework/homework6/homework6.ipynb)
 
 
 ## Project Folder Rules
