@@ -1,0 +1,2 @@
+timestamp,stage,total_files_created,total_storage_mb,csv_files,parquet_files,validation_passed,turtle_project_ready
+2025-08-20,05_data_storage,15,0.6269388198852539,10,4,True,True
