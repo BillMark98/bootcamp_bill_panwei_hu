@@ -1,0 +1,22 @@
+{
+  "pca_explained_variance": [
+    0.9888392978171131,
+    0.010090378885714773,
+    0.0005853205153426806
+  ],
+  "original_features": 22,
+  "final_features": 85,
+  "new_features": 63,
+  "expansion_ratio": 2.8636363636363638,
+  "feature_categories": {
+    "enhanced_price": 7,
+    "enhanced_signals": 12,
+    "volatility": 8,
+    "cross_asset": 8,
+    "regime": 4,
+    "interaction": 3,
+    "time": 9,
+    "risk": 6,
+    "pca": 3
+  }
+}

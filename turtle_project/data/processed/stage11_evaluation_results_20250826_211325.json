@@ -1,0 +1,153 @@
+{
+  "analysis_date": "2025-08-26T21:13:25.708025",
+  "dataset_info": {
+    "shape": [
+      9036,
+      88
+    ],
+    "date_range": [
+      "2023-08-21 00:00:00",
+      "2025-08-20 00:00:00"
+    ],
+    "features_used": 71,
+    "train_samples": 7214,
+    "test_samples": 1804
+  },
+  "model_performance": {
+    "regression": {
+      "Linear": {
+        "R\u00b2": -0.009887041678602104,
+        "RMSE": 0.00036016500938434895,
+        "MAE": 0.011797952379635455,
+        "Dir_Acc": 0.5232815964523282
+      },
+      "Ridge": {
+        "R\u00b2": -0.008596449229707925,
+        "RMSE": 0.0003597047339057224,
+        "MAE": 0.011769635505946374,
+        "Dir_Acc": 0.5277161862527716
+      },
+      "Random Forest": {
+        "R\u00b2": -0.07422212931558092,
+        "RMSE": 0.00038310940463473346,
+        "MAE": 0.011880163503640396,
+        "Dir_Acc": 0.5216186252771619
+      }
+    },
+    "binary_classification": {
+      "Logistic": {
+        "Accuracy": 0.5171840354767184,
+        "F1": 0.5364555614688664
+      },
+      "Random Forest": {
+        "Accuracy": 0.5266075388026608,
+        "F1": 0.6163522012578616
+      }
+    },
+    "multiclass_classification": {
+      "Logistic": {
+        "Accuracy": 0.49002217294900224,
+        "F1": 0.44086071549541
+      },
+      "Random Forest": {
+        "Accuracy": 0.4695121951219512,
+        "F1": 0.3667030806172435
+      }
+    }
+  },
+  "bootstrap_analysis": {
+    "r2_confidence_interval": [
+      -0.0379084209134629,
+      0.018714325241850367
+    ],
+    "rmse_confidence_interval": [
+      0.00031401711969323925,
+      0.00040961205955469853
+    ],
+    "r2_std": 0.014669176475328673,
+    "rmse_std": 2.4962905503408165e-05
+  },
+  "scenario_analysis": {
+    "linear_vs_polynomial": {
+      "linear_r2": -0.009887041678602104,
+      "polynomial_r2": 0.006579737058835966,
+      "improvement": 0.01646677873743807
+    },
+    "train_test_sensitivity": [
+      {
+        "ratio": 0.6,
+        "r2": -0.07153559763103012,
+        "rmse": 0.00035429237482874267,
+        "test_size": 3608
+      },
+      {
+        "ratio": 0.7,
+        "r2": -0.05599017886669566,
+        "rmse": 0.0003841318821960581,
+        "test_size": 2706
+      },
+      {
+        "ratio": 0.8,
+        "r2": -0.009887041678602104,
+        "rmse": 0.00036016500938434895,
+        "test_size": 1804
+      },
+      {
+        "ratio": 0.9,
+        "r2": 0.03084245022129173,
+        "rmse": 5.59725727129898e-05,
+        "test_size": 902
+      }
+    ],
+    "missing_data_treatment": {
+      "mean_imputation_r2": -0.006631052043267083,
+      "median_imputation_r2": -0.006672291210596537,
+      "zero_imputation_r2": -0.0070367261118506885
+    }
+  },
+  "business_metrics": {
+    "average_daily_return": 0.00014008278678587663,
+    "daily_volatility": 0.018890121987787396,
+    "approximate_sharpe": 0.007415663428560239,
+    "best_r2": -0.008596449229707925,
+    "best_binary_accuracy": 0.5266075388026608,
+    "best_multiclass_f1": 0.44086071549541
+  },
+  "risk_assessment": {
+    "high_risk_factors": [
+      "Model overfitting to historical data",
+      "Regime change sensitivity",
+      "Look-ahead bias potential",
+      "Data snooping from multiple testing"
+    ],
+    "medium_risk_factors": [
+      "Feature engineering limitations",
+      "Time series assumption violations",
+      "Market microstructure effects",
+      "Correlation instability"
+    ],
+    "mitigation_strategies": [
+      "Regular model retraining",
+      "Ensemble methods implementation",
+      "Strict out-of-sample testing",
+      "Comprehensive risk controls",
+      "Continuous performance monitoring"
+    ]
+  },
+  "recommendations": {
+    "implementation": [
+      "Start with 1-2% portfolio allocation",
+      "Diversify across multiple asset classes",
+      "Implement 2% daily loss limits",
+      "Monitor performance weekly",
+      "Review model quarterly"
+    ],
+    "monitoring": [
+      "Track R\u00b2 degradation over time",
+      "Monitor directional accuracy",
+      "Watch for feature drift",
+      "Assess regime change impact",
+      "Validate risk control effectiveness"
+    ]
+  }
+}

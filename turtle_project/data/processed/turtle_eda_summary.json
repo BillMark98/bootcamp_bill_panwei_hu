@@ -1,0 +1,17 @@
+{
+  "analysis_date": "2025-08-23 17:04:02",
+  "dataset_shape": [
+    9036,
+    23
+  ],
+  "date_range": "2023-08-21 00:00:00 to 2025-08-20 00:00:00",
+  "assets_analyzed": 18,
+  "insights_count": 7,
+  "recommendations_count": 8,
+  "key_findings": {
+    "data_quality": "EXCELLENT",
+    "diversification_benefit": "True",
+    "signal_frequency": "Unknown",
+    "liquidity_assessment": "Unknown"
+  }
+}
