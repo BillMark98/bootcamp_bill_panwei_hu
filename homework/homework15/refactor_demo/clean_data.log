@@ -1,0 +1,5 @@
+2025-08-28 10:17:11,550 INFO start clean_and_save input=data/raw.csv output=data/clean.csv required=['col1', 'col2']
+2025-08-28 10:26:51,658 INFO start clean_and_save input=data/raw.csv output=data/clean.csv required=['col1', 'col2']
+2025-08-28 10:26:51,672 INFO dropped rows with NA in ['col1', 'col2']: 1000 -> 765
+2025-08-28 10:26:51,686 INFO wrote 765 rows to data/clean.csv
+2025-08-28 10:26:51,686 INFO done
