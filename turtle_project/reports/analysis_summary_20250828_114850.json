@@ -1,0 +1,47 @@
+{
+  "analysis_date": "2025-08-28T11:48:50.718142",
+  "data_shape": [
+    9036,
+    85
+  ],
+  "features_shape": [
+    4140,
+    107
+  ],
+  "model_performance": {
+    "regression": {
+      "Linear": {
+        "R\u00b2": -0.10923015145178394,
+        "RMSE": 0.020117327412308525,
+        "MAE": 0.0126437217806218,
+        "Dir_Acc": 0.5277777777777778
+      },
+      "Ridge": {
+        "R\u00b2": -0.014019748846416213,
+        "RMSE": 0.019234577789996044,
+        "MAE": 0.012261251019923609,
+        "Dir_Acc": 0.5120772946859904
+      },
+      "Random Forest": {
+        "R\u00b2": -0.04300294359741419,
+        "RMSE": 0.019507527064951,
+        "MAE": 0.01186222847444046,
+        "Dir_Acc": 0.5942028985507246
+      }
+    },
+    "binary_classification": {
+      "Logistic": {
+        "Accuracy": 0.5108695652173914,
+        "F1": 0.6232558139534884
+      },
+      "Random Forest": {
+        "Accuracy": 0.6147342995169082,
+        "F1": 0.6659685863874345
+      }
+    }
+  },
+  "outputs": {
+    "models_saved": "/Users/panweihu/Desktop/Desktop_m1/NYU_mfe/bootcamp/camp4/bootcamp_bill_panwei_hu/turtle_project/model/turtle_models_20250828_114850",
+    "predictions_saved": "reports/predictions_20250828_114850.csv"
+  }
+}

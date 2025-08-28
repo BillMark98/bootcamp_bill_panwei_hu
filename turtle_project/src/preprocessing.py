@@ -2,7 +2,7 @@
 Financial Data Preprocessing Module for Turtle Trading
 Project: Turtle Trading Strategy Research
 Author: Panwei Hu
-Date: 2025-01-27
+Date: 2025-08-26
 """
 
 import pandas as pd
